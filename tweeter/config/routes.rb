@@ -8,6 +8,11 @@ Rails.application.routes.draw do
 
   get 'pages/explore' => 'pages#explore'
 
+
+  get 'pages/help' => 'pages#help'
+
+  get 'pages/edit' => 'pages#edit'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
